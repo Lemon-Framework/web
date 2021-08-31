@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "bbfe517cb46198f591280e12555d6dc9",
+    "packages": [
+        {
+            "name": "lemon_framework/lemon",
+            "version": "2.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Lemon-Framework/Lemon.git",
+                "reference": "0c68277d4408fdda25854f61a2f4a11d8ddb36ec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Lemon-Framework/Lemon/zipball/0c68277d4408fdda25854f61a2f4a11d8ddb36ec",
+                "reference": "0c68277d4408fdda25854f61a2f4a11d8ddb36ec",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Lemon\\": "src/"
+                },
+                "files": [
+                    "src/Views/views.php",
+                    "src/Http/Routing/Route.php",
+                    "src/Utils/utils.php",
+                    "src/Kernel/loader.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "TENMAJKL",
+                    "email": "silder.hologram@gmail.com"
+                }
+            ],
+            "description": "Lemon is simple micro framework that provides routing, etc.",
+            "support": {
+                "issues": "https://github.com/Lemon-Framework/Lemon/issues",
+                "source": "https://github.com/Lemon-Framework/Lemon/tree/2.5.0"
+            },
+            "time": "2021-08-30T19:52:38+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
